@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../assets/style.css"/>
+  <link rel="stylesheet" href="../lib/bootstrap.css"/>
+
+</head>
+
+<body>
+  <!--
+  <div id="header">
+
+      <div id="cca">
+      <a>
+          <img> <br/>
+          <p></p>
+      </a>
+      </div>
+  </div>
+-->
+  <div class="container">
+  <div class="jumbotron">
+  <h1>Flappy Bird - Volcano</h1>
+  <p>Combining Volcanoes and Cute Furry Animals! - Three player version</p>
+  <a href="index1player.html">Click to play the one player version</a>
+  <br>
+  <a href="index.html">Click to play the two player version</a>
+  </div>
+   <div class="row">
+   <div class="col-md-4">
+   <!--<p id="gameLink">
+   <a href="example.html">Here will be the game
+     <img src="../assets/screenshot.png" class="img-responsive" />-->
+     <div id="game"> </div><!--
+   </a>
+ </p>-->
+ </div>
+    <div class="col-md-5"></div>
+   <div class="col-md-2" id = "info">
+     <!--<p></p>
+     <p>How to play:</p>
+     <ul>
+         <li> If you are Player 1 (the chipmunk()), press the Up arrow to jump.</li>
+         <li> If you are Player 2 (the squirel()), press SPACE to jump.</li>
+         <li> Avoid the pipes.</li>
+         <li> If you crash, just try again!</li>
+     </ul>
+   <p>The highest scorers are:</p>
+   <ol>
+   <li class="gold">Me</li>
+   <li class="silver">Myself</li>
+   <li class="bronze">I</li>
+ </ol>-->
+ <div>
+  <button type="button" class="btn btn-default" id="scoresbtn">Scores</button>
+  <button type="button" class="btn btn-default" id="creditsbtn">Credits</button>
+  <button type="button" class="btn btn-default" id="helpbtn">Help</button>
+  <button type="button" class="btn btn-default" id="pausebtn">Pause</button>
+  <button type="button" class="btn btn-default" id="restartbtn">Restart Game</button>
+ </div>
+ <div id = "content"></div>
+   </div>
+   </div>
+   <div class="row">
+ <div class="col-md-4">
+ <img src="../assets/screenshot.png" class="img-thumbnail img-responsive" />
+ </div>
+ <div class="col-md-4">
+ <img src="../assets/screenshot2.png" class="img-thumbnail img-responsive" />
+ </div>
+ <div class="col-md-4">
+ <img src="../assets/screenshot3.png" class="img-thumbnail img-responsive" />
+ </div>
+  </div>
+  <br>
+  <div id="footer">
+      <p>&copy; Cambridge Coding Academy</p>
+  </div>
+  <script type="text/javascript" src="../lib/phaser.min.js"></script>
+  <script type="text/javascript" src="../js/flappy3player.js"></script>
+  <script type="text/javascript" src="../lib/jquery.js"></script>
+  <script type="text/javascript" src="../js/interactivity3player.js"></script>
+</body>
+
+</html>
